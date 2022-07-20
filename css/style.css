@@ -106,11 +106,18 @@
     margin-bottom:0;
   }
 
+  .cardhover {
+    background-color: white;
+  }
+
+  .cardhover:hover{
+    background-color: rgb(0, 24, 69);
+    color: white;
+  }
 
 @media (min-width: 992px) { 
     .jumbotron {
         height: 350px;
-        font-size: 125px;
     }
 
     .category {
