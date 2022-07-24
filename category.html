@@ -12,6 +12,7 @@
 
   <!-- My CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
 
   <!-- Custom styles for this template -->
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
@@ -39,6 +40,12 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           <a class="nav-link active" href="category.html">Blog</a>
         </div>
+          <!-- Dark mode -->
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch">
+            <label class="custom-control-label text-light" for="darkSwitch">Dark Mode</label>
+          </div>
+          <!-- End dark mode -->
       </div>
     </div>
   </nav>
@@ -69,16 +76,16 @@
 
     <div class="row mb-3">
       <div class="col text-center">
-        <h2 class="font-weight-normal text-dark">Getting Started</h1>
+        <h2 class="font-weight-normal bg-light">Getting Started</h1>
       </div>
     </div>
 
     <div class="row justify-content-center">
 
-      <div class="card m-2 shadow-sm cardhover" style="max-width: 540px;">
+      <div class="card m-2 shadow-sm cardhover bg-light" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="img/thumbnail.png" class="card-img img-thumbnail" alt="...">
+            <img src="img/thumbnail.png" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -100,10 +107,10 @@
         </div>
       </div>
 
-      <div class="card m-2 shadow-sm cardhover" style="max-width: 540px;">
+      <div class="card m-2 shadow-sm cardhover bg-light" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="img/ajid.png" class="card-img img-thumbnail" alt="...">
+            <img src="img/ajid.png" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -125,10 +132,10 @@
         </div>
       </div>
 
-      <div class="card m-2 shadow-sm cardhover" style="max-width: 540px;">
+      <div class="card m-2 shadow-sm cardhover bg-light" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="img/thumbnail.png" class="card-img img-thumbnail" alt="...">
+            <img src="img/thumbnail.png" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -150,10 +157,10 @@
         </div>
       </div>
 
-      <div class="card m-2 shadow-sm cardhover" style="max-width: 540px;">
+      <div class="card m-2 shadow-sm cardhover bg-light" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="img/ajid.png" class="card-img img-thumbnail" alt="...">
+            <img src="img/ajid.png" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -229,6 +236,7 @@
     crossorigin="anonymous"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/dark-mode-switch.min.js"></script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
